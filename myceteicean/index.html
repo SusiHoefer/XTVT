@@ -14,14 +14,16 @@
         });
         let behaviors = {
           "tei": {
-            "person": ["<br>"],
-}
-};
-let behaves = {
-  "tei": {
-    "person": ["<ul>"],
-}
-};
+            "head":["<h1>"," von Okopenko"],
+            "p": ["<br/>", "<hidden>"],
+         }
+         };
+        let behaves = {
+         "tei": {
+            "person": ["<ul>"],
+          }
+         };
+c.addBehaviors(behaviors);
 c.addBehaviors(behaves);
     </script>
 </head>
