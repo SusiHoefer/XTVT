@@ -1,0 +1,13 @@
+body{
+background-color: bisque;
+  }
+
+tei-persName{
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Book Antiqua";
+}
+
+tei-person{
+  color:#000;
+}
